@@ -1,4 +1,4 @@
-baseURL = "https://reactos.org/"
+RebaseURL = "https://reactos.org/"
 title = "ReactOS Website"
 theme = "reactos"
 languageCode = "en-us"
@@ -22,7 +22,7 @@ paginate = 10
 		weight = 101
 	[[menu.main]]
 		parent = "About"
-		name = "Gallery"
+		name = "PSGallery"
 		url  = "/gallery"
 		weight = 102
 	[[menu.main]]
@@ -120,7 +120,7 @@ paginate = 10
 	[[menu.main]]
 		parent = "Development"
 		name = "Work for ReactOS"
-		url  = "/contributing#paid-jobs"
+		url  = "/contributor#paid-jobs"
 		weight = 315
 
 [[menu.main]]
@@ -139,7 +139,7 @@ paginate = 10
 	defaultDescription = "ReactOS is a free, opensource reimplementation of windows"
 
 	# Format dates with Go's time formatting
-	date_format = "January 2, 2006"
+	  Date_format = "DD-MM-YYYY"
 
 	logo = "/sites/default/files/ReactOS_0.png"
 	logo_small = "/sites/default/files/ReactOS_0.png"
@@ -154,7 +154,7 @@ paginate = 10
 [params.widgets]
 	categories = true
 	tags = true
-	search = false
+	search = true
 
 [taxonomies]
 	author = "author"

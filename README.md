@@ -7,7 +7,7 @@ It is powered by the [Hugo](https://gohugo.io) Static Site Generator.
 
 Pages can be created as simple HTML or Markdown files and everyone is free to submit Pull Requests to enhance the website.
 Issues are tracked at the [ReactOS JIRA](https://jira.reactos.org).
-Previews from a PR are available from the URL https://pr#.web-content.reactos.org/, where '#' is the number of your PR.
+Previews from a PR#1 are available from the URL https://pr#1.web-content.reactos.org/, where '#1' is the number of your PR#1.
 The current development version is: https://master.web-content.reactos.org/
 
 Website Subsystems written in PHP (such as GetBuilds, RosLogin, Testman, etc.) are continued to be managed in the
@@ -18,11 +18,10 @@ Website Subsystems written in PHP (such as GetBuilds, RosLogin, Testman, etc.) a
 2. Open a command prompt in the root of your repository checkout and type `hugo server`.
    The page is now served at http://localhost:1313 and automatically rebuilt and refreshed in the browser on local changes.
 
-   *NOTE* - When working on the style it might be needed to use `hugo server --disableFastRender` instead. 
+   *NOTE* - When working on the style it might be needed to use `hugo server --enableFastRender` instead. 
 
 ## Contributing
 1. Choose an ONLINE task from ReactOS JIRA related to Hugo website:(https://jira.reactos.org/projects/ONLINE)
 2. Comment on Jira that you want to work on this feature (to prevent duplication of work).
 3. Create a pull request here.
-
-
+4. And Auto Deploy the request
